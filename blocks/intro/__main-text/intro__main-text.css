@@ -1,0 +1,19 @@
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 683px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__main-text {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,30 @@
+.video__icon-play {
+    max-width: 41px;
+    margin-left: 30px;
+    margin-bottom: 94px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__icon-play {
+        margin-bottom: 54px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__icon-play {
+        margin: 24px 0 17px 24px;
+    }
+    .video__item:first-child .video__icon-play {
+        margin-bottom: 42.6px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item:first-child .video__icon-play {
+        margin: 16px 0 50.2px 16px;
+    }
+    .video__icon-play {
+        margin: 16px 0 24.6px 16px;
+    }
+}

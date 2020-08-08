@@ -1,0 +1,12 @@
+@import url("../place/place.css");
+
+.places {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        margin-left: 0;
+    }
+}
